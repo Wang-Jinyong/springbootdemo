@@ -1,0 +1,6 @@
+server.port = 7070
+
+#王金勇
+wjy.hello = helloWorld!
+wjy.number = ${random.int}
+wjy.msg = hi! WJY! ${wjy.hello} ${wjy.number}

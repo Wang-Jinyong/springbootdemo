@@ -1,0 +1,10 @@
+server:
+  port: 9090
+
+logging:
+  config: classpath:log4j2-spring.yml
+
+wjy:
+  hello: helloWorld!
+  number: ${random.int}
+  msg: hi! WJY! ${wjy.hello} ${wjy.number}
