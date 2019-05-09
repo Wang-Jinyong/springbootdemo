@@ -7,7 +7,7 @@ logging:
 # 多环境配置文件激活属性
 spring:
   profiles:
-    active: test
+    active: dev
 
 wjy:
   hello: helloWorld!
