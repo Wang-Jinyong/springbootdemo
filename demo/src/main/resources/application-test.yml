@@ -1,13 +1,8 @@
 server:
-  port: 11111
+  port: 9090
 
 logging:
   config: classpath:log4j2-spring.yml
-
-# 多环境配置文件激活属性
-spring:
-  profiles:
-    active: test
 
 wjy:
   hello: helloWorld!
